@@ -147,3 +147,34 @@
 [2025-06-26 16:03:35] [INFO] Botão/link de Baixar XML encontrado. Clicando...
 [2025-06-26 16:03:38] [ERROR] Nenhum arquivo XML encontrado na pasta de downloads após o clique.
 [2025-06-26 16:03:38] [WARNING] XML simulado, pois o download não foi detectado ou falhou.
+[2025-06-26 16:05:07] [INFO] Configurações e importações carregadas para o teste de scraping.
+[2025-06-26 16:05:08] [INFO] Inicializando o WebDriver Chrome com opções de download no diretório: c:\Users\Manga\Desktop\Case Tecnico\src\pipeline\temp_downloads_selenium
+[2025-06-26 16:05:10] [INFO] WebDriver inicializado com sucesso.
+[2025-06-26 16:05:10] [INFO] Navegando para: https://www.meudanfe.com.br/
+[2025-06-26 16:05:12] [INFO] Procurando campo de input da chave com ('xpath', "//input[@placeholder='Digite a CHAVE DE ACESSO']")
+[2025-06-26 16:05:12] [INFO] Chave 5325061724... inserida no campo.
+[2025-06-26 16:05:12] [INFO] Procurando botão de consulta com ('xpath', "//button[contains(text(), 'Buscar DANFE/XML')]")
+[2025-06-26 16:05:12] [INFO] Botão 'Buscar DANFE/XML' clicado. Aguardando resultados...
+[2025-06-26 16:05:17] [INFO] Tempo de espera inicial concluído. Verificando novos elementos...
+[2025-06-26 16:05:17] [INFO] Aguardando carregamento da página de resultados (/ver-danfe)...
+[2025-06-26 16:05:17] [INFO] Página de resultados carregada: https://www.meudanfe.com.br/ver-danfe
+[2025-06-26 16:05:17] [INFO] Procurando botão/link de download de XML com localizador: ('xpath', "//button[contains(text(), 'Baixar XML')]")
+[2025-06-26 16:05:17] [INFO] Botão/link de Baixar XML encontrado. Clicando...
+[2025-06-26 16:05:20] [ERROR] Nenhum arquivo XML encontrado na pasta de downloads após o clique.
+[2025-06-26 16:05:20] [WARNING] XML simulado, pois o download não foi detectado ou falhou.
+[2025-06-26 16:05:52] [INFO] Configurações e importações carregadas para o teste de scraping.
+[2025-06-26 16:05:53] [INFO] Inicializando o WebDriver Chrome com opções de download no diretório: c:\Users\Manga\Desktop\Case Tecnico\src\pipeline\temp_downloads_selenium
+[2025-06-26 16:05:56] [INFO] WebDriver inicializado com sucesso.
+[2025-06-26 16:05:56] [INFO] Navegando para: https://www.meudanfe.com.br/
+[2025-06-26 16:05:57] [INFO] Procurando campo de input da chave com ('xpath', "//input[@placeholder='Digite a CHAVE DE ACESSO']")
+[2025-06-26 16:05:57] [INFO] Chave 5325061724... inserida no campo.
+[2025-06-26 16:05:57] [INFO] Procurando botão de consulta com ('xpath', "//button[contains(text(), 'Buscar DANFE/XML')]")
+[2025-06-26 16:05:57] [INFO] Botão 'Buscar DANFE/XML' clicado. Aguardando resultados...
+[2025-06-26 16:06:02] [INFO] Tempo de espera inicial concluído. Verificando novos elementos...
+[2025-06-26 16:06:02] [INFO] Aguardando carregamento da página de resultados (/ver-danfe)...
+[2025-06-26 16:06:02] [INFO] Página de resultados carregada: https://www.meudanfe.com.br/ver-danfe
+[2025-06-26 16:06:02] [INFO] Procurando botão/link de download de XML com localizador: ('xpath', "//button[contains(text(), 'Baixar XML')]")
+[2025-06-26 16:06:02] [INFO] Botão/link de Baixar XML encontrado. Clicando...
+[2025-06-26 16:06:05] [ERROR] Nenhum arquivo XML encontrado na pasta de downloads após o clique.
+[2025-06-26 16:06:05] [WARNING] XML simulado, pois o download não foi detectado ou falhou.
+[2025-06-26 16:08:50] [INFO] Configurações e importações carregadas para o teste de scraping.
