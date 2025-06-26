@@ -3,7 +3,7 @@
 import requests
 import xml.etree.ElementTree as ET
 
-# Remover importações de selenium e webdriver_manager!
+
 # from selenium import webdriver
 # from selenium.webdriver.chrome.service import Service as ChromeService
 # from selenium.webdriver.chrome.options import Options
@@ -22,7 +22,7 @@ from src.config import (
 )
 
 
-# A função extract_note_number_from_xml permanece a mesma
+
 def extract_note_number_from_xml(xml_content, logger):
     """
     Extrai o número da nota fiscal (nNF) do conteúdo XML.
@@ -83,13 +83,13 @@ def process_single_key(key, logger):
         # --- PASSO 1: BAIXAR O XML DA NOTA USANDO A API DIRETA (POST) ---
         xml_download_url = f"https://ws.meudanfe.com/api/v1/get/nfe/xml/{key}"
 
-        # Headers para a requisição de download do XML (baseados nos que você forneceu)
+        # Headers para a requisição de download do XML 
         xml_headers = {
             "authority": "ws.meudanfe.com",
             "accept": "*/*",
             "accept-encoding": "gzip, deflate, br, zstd",
             "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-            "content-type": "text/plain;charset=UTF-8",  # MANTÉM ESTE!
+            "content-type": "text/plain;charset=UTF-8",  
             "origin": "https://www.meudanfe.com.br",
             "referer": "https://www.meudanfe.com.br/",
             "sec-ch-ua": '"Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"',
@@ -113,7 +113,7 @@ def process_single_key(key, logger):
             data=xml_payload,
             timeout=REQUEST_TIMEOUT_SECONDS,
         )
-        # xml_response.raise_for_status()  # Lança exceção para erros HTTP (4xx, 5xx)
+
 
         xml_content = xml_response.content
 
@@ -138,14 +138,9 @@ def process_single_key(key, logger):
 
         # --- PASSO 2: GERAR DANFE PDF ENVIANDO O XML PARA A API DE CONVERSÃO ---
         danfe_headers = {
-            "Content-Type": "text/plain",  # Conforme seu comando curl anterior para DANFE
+            "Content-Type": "text/plain",  
         }
-        # Adicionar a API Key para a API de DANFE, SE for necessária e você a tiver.
-        # if MEUDANFE_API_KEY and MEUDANFE_API_KEY != "SUA_CHAVE_AQUI":
-        #     danfe_headers["X-Api-Key"] = (
-        #         MEUDANFE_API_KEY  # OU 'Authorization': f'Bearer {MEUDANFE_API_KEY}',
-        #     )
-
+       
         danfe_payload = xml_content  # Envie o conteúdo BINÁRIO do XML diretamente
 
         logger.debug(
@@ -153,11 +148,11 @@ def process_single_key(key, logger):
         )
         danfe_response = requests.post(
             MEUDANFE_API_DANFE_GENERATION_URL,
-            data=danfe_payload,  # Use 'data' para enviar o conteúdo bruto (text/plain)
+            data=danfe_payload,  
             headers=danfe_headers,
             timeout=REQUEST_TIMEOUT_SECONDS,
         )
-        # danfe_response.raise_for_status()  # Lança exceção para erros HTTP
+
         pdf_content = (
             danfe_response.content
         )  # O PDF geralmente vem como conteúdo binário direto

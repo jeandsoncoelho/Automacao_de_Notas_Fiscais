@@ -96,7 +96,7 @@ Siga estes passos para configurar e executar a pipeline em sua máquina local.
 Abra seu terminal (Prompt de Comando no Windows, Terminal no macOS/Linux) e clone este repositório:
 
 ```bash
-git clone [https://github.com/SeuUsuario/automacao-notas-fiscais.git](https://github.com/SeuUsuario/automacao-notas-fiscais.git)  # <-- SUBSTITUA PELO SEU LINK DO GITHUB
+git clone [https://github.com/jeandsoncoelho/Automacao_de_Notas_Fiscais.git](https://github.com/jeandsoncoelho/Automacao_de_Notas_Fiscais.git) 
 cd automacao-notas-fiscais
 
 # Criar o ambiente virtual (venv é o nome da pasta)
