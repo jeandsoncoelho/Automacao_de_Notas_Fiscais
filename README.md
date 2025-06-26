@@ -22,6 +22,7 @@ O projeto foi estruturado como uma pipeline de dados utilizando o padrão **E.T.
     -   Extrai as chaves de acesso (44 dígitos) e identifica o código da filial a partir do nome do arquivo.
 
 -   **Transform (src/pipeline/transform.py):**
+    - Na descrição do case , foi falado para fazer webScraping , mas encontrei uma forma melhor , como a propria API para as requisições, deixando o processo mais rápido.
     -   Responsável pelo `Processamento` dos dados.
     -   Para cada chave de acesso:
         -   Faz uma requisição `POST` para a API de download de XML (`ws.meudanfe.com`) para obter o conteúdo XML da nota.
