@@ -3,3 +3,4 @@ requests
 # google-cloud-storage
 # Se precisar de parser XML para extrair número da nota
 lxml
+selenium

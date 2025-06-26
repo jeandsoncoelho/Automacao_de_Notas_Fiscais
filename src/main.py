@@ -11,7 +11,7 @@ def run_data_pipeline():
     """
     logger = setup_logger()
     logger.info(f"Iniciando o pipeline de automação de notas em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-
+    print(f"Iniciando o pipeline de automação de notas em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     try:
         # Estágio 1: Extração
         logger.info(f"Estágio de Extração: Lendo chaves da pasta '{INPUT_FOLDER}'.")
@@ -51,3 +51,6 @@ def run_data_pipeline():
         logger.critical(f"Erro crítico no pipeline principal: {e}", exc_info=True)
     finally:
         logger.info(f"Pipeline de automação de notas finalizado em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
+if __name__ == "__main__":
+    run_data_pipeline()
