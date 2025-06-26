@@ -256,3 +256,132 @@
 2025-06-26 19:23:40,384 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250619628684000360550010000710051314125262. Pulando geração de DANFE.
 2025-06-26 19:23:40,384 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
 2025-06-26 19:23:41,390 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 19:23:41
+2025-06-26 20:02:47,384 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 20:02:47
+2025-06-26 20:02:47,389 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\CHAVES NOTAS'.
+2025-06-26 20:02:47,393 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-26 20:02:47,394 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-26 20:02:47,397 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-26 20:02:47,403 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-26 20:02:47,408 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-26 20:02:47,413 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-26 20:02:47,420 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 20:02:47,424 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-26 20:02:47,915 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 20:02:47,919 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:47,935 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:47,937 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:47,988 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002423721173242158. Pulando geração de DANFE.
+2025-06-26 20:02:47,992 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:49,137 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 20:02:49,222 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-26 20:02:49,471 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 20:02:49,472 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:49,477 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:49,496 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:49,498 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002424921216491110. Pulando geração de DANFE.
+2025-06-26 20:02:49,523 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:50,526 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-26 20:02:50,527 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-26 20:02:50,694 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060554...
+2025-06-26 20:02:50,695 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:50,699 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:50,700 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:50,709 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250605547064000120550010002600321212881613. Pulando geração de DANFE.
+2025-06-26 20:02:50,724 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:51,727 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-26 20:02:51,727 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-26 20:02:51,929 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325061724...
+2025-06-26 20:02:51,930 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:51,931 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:51,932 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:51,932 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250617244285000109550010008539971132114979. Pulando geração de DANFE.
+2025-06-26 20:02:51,935 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:52,935 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-26 20:02:52,940 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-26 20:02:53,083 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325064321...
+2025-06-26 20:02:53,088 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:53,090 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:53,109 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:53,109 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250643214055005923550000022604631827676826. Pulando geração de DANFE.
+2025-06-26 20:02:53,117 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:54,119 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-26 20:02:54,121 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-26 20:02:54,220 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325060171...
+2025-06-26 20:02:54,235 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:54,255 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:54,309 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:54,315 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250601713958000354550010019966971194113189. Pulando geração de DANFE.
+2025-06-26 20:02:54,431 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:55,629 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 20:02:55,651 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-26 20:02:55,886 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 20:02:55,909 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:55,910 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:55,911 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:55,911 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050619161825655311. Pulando geração de DANFE.
+2025-06-26 20:02:55,912 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:56,964 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 20:02:56,968 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-26 20:02:57,060 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 20:02:57,060 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:57,062 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:57,063 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:57,064 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592901825406917. Pulando geração de DANFE.
+2025-06-26 20:02:57,065 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:58,085 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 20:02:58,085 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-26 20:02:58,175 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 20:02:58,175 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:02:58,177 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:02:58,178 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:02:58,179 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592911825406930. Pulando geração de DANFE.
+2025-06-26 20:02:58,181 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:02:59,188 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 20:02:59,890 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-26 20:03:00,025 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 20:03:00,026 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:00,027 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:00,027 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:00,027 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014407371251255458. Pulando geração de DANFE.
+2025-06-26 20:03:00,028 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:01,030 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 20:03:01,030 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-26 20:03:01,125 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 20:03:01,125 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:01,149 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:01,155 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:01,225 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014433001131491628. Pulando geração de DANFE.
+2025-06-26 20:03:01,256 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:02,268 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 20:03:02,270 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-26 20:03:02,375 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 20:03:02,375 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:02,376 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:02,377 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:02,400 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014434191196772270. Pulando geração de DANFE.
+2025-06-26 20:03:02,421 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:03,435 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 20:03:03,436 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-26 20:03:03,633 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 20:03:03,635 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:03,636 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:03,636 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:03,637 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068681827553790. Pulando geração de DANFE.
+2025-06-26 20:03:03,638 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:04,644 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 20:03:04,645 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-26 20:03:04,735 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 20:03:04,735 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:04,736 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:04,736 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:04,736 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068671827553785. Pulando geração de DANFE.
+2025-06-26 20:03:04,737 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:05,739 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-26 20:03:05,739 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-26 20:03:05,863 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925061962...
+2025-06-26 20:03:05,863 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 20:03:05,864 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 20:03:05,866 - src.logger_config - INFO - XML note number: None...
+2025-06-26 20:03:05,867 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250619628684000360550010000710051314125262. Pulando geração de DANFE.
+2025-06-26 20:03:05,868 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
+2025-06-26 20:03:06,869 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 20:03:06

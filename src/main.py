@@ -6,8 +6,8 @@ from src.pipeline.transform import process_single_key
 from src.pipeline.load import save_documents
 from src.config import INPUT_FOLDER
 
-# Configure um pequeno atraso entre as requisições
-# Comece com algo como 0.5 a 1 segundo. Você pode ajustar isso.
+# pequeno atraso entre as requisições
+# Comece com algo como 0.5 a 1 segundo.
 REQUEST_DELAY_SECONDS = 1 
 
 def run_data_pipeline():
