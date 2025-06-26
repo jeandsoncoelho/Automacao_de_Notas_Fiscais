@@ -1,0 +1,5 @@
+requests
+# Para interagir com o Cloud Storage se for para a nuvem
+# google-cloud-storage
+# Se precisar de parser XML para extrair número da nota
+lxml
