@@ -1,19 +1,20 @@
 import datetime
+import time # Importe a biblioteca time
 from src.logger_config import setup_logger
 from src.pipeline.extract import get_all_filial_keys
 from src.pipeline.transform import process_single_key
 from src.pipeline.load import save_documents
-from src.config import INPUT_FOLDER # Não está sendo usado diretamente aqui mas é bom ter
+from src.config import INPUT_FOLDER
+
+# Configure um pequeno atraso entre as requisições
+# Comece com algo como 0.5 a 1 segundo. Você pode ajustar isso.
+REQUEST_DELAY_SECONDS = 1 
 
 def run_data_pipeline():
-    """
-    Orquestra o pipeline de automação de notas fiscais.
-    """
     logger = setup_logger()
     logger.info(f"Iniciando o pipeline de automação de notas em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Iniciando o pipeline de automação de notas em {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+
     try:
-        # Estágio 1: Extração
         logger.info(f"Estágio de Extração: Lendo chaves da pasta '{INPUT_FOLDER}'.")
         all_filial_keys_data = get_all_filial_keys(logger)
 
@@ -25,10 +26,10 @@ def run_data_pipeline():
 
         for filial_code, key in all_filial_keys_data:
             logger.info(f"Processando chave: {key[:10]}... (Filial: {filial_code})")
-
+            
             # Estágio 2: Transformação
             xml_content, pdf_content, note_number = process_single_key(key, logger)
-
+            
             if xml_content and pdf_content and note_number:
                 # Estágio 3: Carregamento
                 current_date_str = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -45,7 +46,11 @@ def run_data_pipeline():
                 else:
                     logger.error(f"Falha ao salvar documentos para nota {note_number} (Filial: {filial_code}).")
             else:
-                logger.error(f"Falha ao obter XML/DANFE para a chave: {key[:10]}... Detalhes acima.")
+                logger.error(f"Falha ao obter XML/DANFE para a chave: {key[:10]}... Detalhes no log da função 'process_single_key'.")
+
+            # --- ADICIONE ESTA LINHA AQUI ---
+            logger.debug(f"Aguardando {REQUEST_DELAY_SECONDS} segundos antes da próxima requisição.")
+            time.sleep(REQUEST_DELAY_SECONDS) 
 
     except Exception as e:
         logger.critical(f"Erro crítico no pipeline principal: {e}", exc_info=True)

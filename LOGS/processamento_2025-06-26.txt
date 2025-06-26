@@ -1,486 +1,258 @@
-2025-06-26 14:38:15,170 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 14:38:15
-2025-06-26 14:38:15,170 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
-2025-06-26 14:38:15,170 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
-2025-06-26 14:38:15,171 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
-2025-06-26 14:38:15,171 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
-2025-06-26 14:38:15,172 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
-2025-06-26 14:38:15,172 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
-2025-06-26 14:38:15,172 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
-2025-06-26 14:38:15,172 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:38:15,172 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
-2025-06-26 14:38:15,757 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002423721173242158: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:15,758 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:38:15,758 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:38:15,758 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
-2025-06-26 14:38:16,296 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002424921216491110: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:16,297 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:38:16,297 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
-2025-06-26 14:38:16,297 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
-2025-06-26 14:38:16,835 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250605547064000120550010002600321212881613: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:16,836 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes acima.
-2025-06-26 14:38:16,836 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
-2025-06-26 14:38:16,836 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
-2025-06-26 14:38:17,376 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250617244285000109550010008539971132114979: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:17,377 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes acima.
-2025-06-26 14:38:17,377 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
-2025-06-26 14:38:17,377 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
-2025-06-26 14:38:17,919 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250643214055005923550000022604631827676826: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:17,919 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes acima.
-2025-06-26 14:38:17,920 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
-2025-06-26 14:38:17,920 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
-2025-06-26 14:38:18,457 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250601713958000354550010019966971194113189: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:18,458 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes acima.
-2025-06-26 14:38:18,458 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:38:18,458 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
-2025-06-26 14:38:18,998 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050619161825655311: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:18,999 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:38:18,999 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:38:19,000 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
-2025-06-26 14:38:19,536 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592901825406917: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:19,536 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:38:19,536 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:38:19,537 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
-2025-06-26 14:38:20,077 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592911825406930: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:20,078 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:38:20,078 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:38:20,078 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
-2025-06-26 14:38:20,634 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014407371251255458: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:20,635 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:38:20,635 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:38:20,635 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
-2025-06-26 14:38:21,174 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014433001131491628: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:21,175 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:38:21,175 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:38:21,175 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
-2025-06-26 14:38:21,726 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014434191196772270: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:21,727 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:38:21,727 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:38:21,727 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
-2025-06-26 14:38:22,262 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068681827553790: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:22,262 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:38:22,262 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:38:22,262 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
-2025-06-26 14:38:22,798 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068671827553785: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:22,799 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:38:22,799 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
-2025-06-26 14:38:22,799 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
-2025-06-26 14:38:23,334 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250619628684000360550010000710051314125262: Status 404 - <!DOCTYPE html>
-<html style="height:100%">
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title> 404 Not Found
-</title><style>@media (prefers-color-scheme:dark){body{background-color:#000!important}}</style></head>
-<body style="color: #444; margin:0;font: normal 14px/20px Arial, Helvetica, sans-serif; height:100%; background-color: #fff;">
-<div style="height:auto; min-height:100%; ">     <div style="text-align: center; width:800px; margin-left: -400px; position:absolute; top: 30%; left:50%;">
-        <h1 style="margin:0; font-size:150px; line-height:150px; font-weight:bold;">404</h1>
-<h2 style="margin-top:20px;font-size: 30px;">Not Found
-</h2>
-<p>The resource requested could not be found on this server!</p>
-</div></div><div style="color:#f0f0f0; font-size:12px;margin:auto;padding:0px 30px 0px 30px;position:relative;clear:both;height:100px;margin-top:-101px;background-color:#474747;border-top: 1px solid rgba(0,0,0,0.15);box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;">
-<br>Proudly powered by LiteSpeed Web Server<p>Please be advised that LiteSpeed Technologies Inc. is not a web hosting company and, as such, has no control over content found on this site.</p></div></body></html>
-
-2025-06-26 14:38:23,335 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes acima.
-2025-06-26 14:38:23,335 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 14:38:23
-2025-06-26 14:50:33,183 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 14:50:33
-2025-06-26 14:50:33,184 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
-2025-06-26 14:50:33,184 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
-2025-06-26 14:50:33,184 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
-2025-06-26 14:50:33,185 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
-2025-06-26 14:50:33,185 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
-2025-06-26 14:50:33,185 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
-2025-06-26 14:50:33,185 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
-2025-06-26 14:50:33,186 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:50:33,186 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
-2025-06-26 14:50:33,281 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002423721173242158: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,282 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:50:33,282 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:50:33,282 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
-2025-06-26 14:50:33,354 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002424921216491110: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,354 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:50:33,354 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
-2025-06-26 14:50:33,354 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
-2025-06-26 14:50:33,417 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250605547064000120550010002600321212881613: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,417 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes acima.
-2025-06-26 14:50:33,418 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
-2025-06-26 14:50:33,418 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
-2025-06-26 14:50:33,483 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250617244285000109550010008539971132114979: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,484 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes acima.
-2025-06-26 14:50:33,484 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
-2025-06-26 14:50:33,484 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
-2025-06-26 14:50:33,548 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250643214055005923550000022604631827676826: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,548 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes acima.
-2025-06-26 14:50:33,548 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
-2025-06-26 14:50:33,548 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
-2025-06-26 14:50:33,616 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250601713958000354550010019966971194113189: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,617 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes acima.
-2025-06-26 14:50:33,617 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:50:33,617 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
-2025-06-26 14:50:33,683 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050619161825655311: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,684 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:50:33,684 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:50:33,684 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
-2025-06-26 14:50:33,747 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592901825406917: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,747 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:50:33,747 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:50:33,747 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
-2025-06-26 14:50:33,811 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592911825406930: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,811 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:50:33,812 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:50:33,812 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
-2025-06-26 14:50:33,877 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014407371251255458: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,878 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:50:33,878 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:50:33,878 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
-2025-06-26 14:50:33,940 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014433001131491628: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:33,941 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:50:33,941 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:50:33,941 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
-2025-06-26 14:50:34,005 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014434191196772270: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:34,005 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:50:34,005 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:50:34,005 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
-2025-06-26 14:50:34,071 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068681827553790: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:34,072 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:50:34,072 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:50:34,072 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
-2025-06-26 14:50:34,135 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068671827553785: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:34,135 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:50:34,136 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
-2025-06-26 14:50:34,136 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
-2025-06-26 14:50:34,199 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250619628684000360550010000710051314125262: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:50:34,199 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes acima.
-2025-06-26 14:50:34,200 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 14:50:34
-2025-06-26 14:53:17,217 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 14:53:17
-2025-06-26 14:53:17,218 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
-2025-06-26 14:53:17,218 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
-2025-06-26 14:53:17,219 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
-2025-06-26 14:53:17,219 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
-2025-06-26 14:53:17,220 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
-2025-06-26 14:53:17,221 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
-2025-06-26 14:53:17,221 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
-2025-06-26 14:53:17,221 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:53:17,222 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
-2025-06-26 14:53:17,328 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002423721173242158: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,328 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:53:17,328 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:53:17,328 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
-2025-06-26 14:53:17,390 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002424921216491110: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,390 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:53:17,391 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
-2025-06-26 14:53:17,391 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
-2025-06-26 14:53:17,456 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250605547064000120550010002600321212881613: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,456 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes acima.
-2025-06-26 14:53:17,456 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
-2025-06-26 14:53:17,457 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
-2025-06-26 14:53:17,518 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250617244285000109550010008539971132114979: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,519 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes acima.
-2025-06-26 14:53:17,519 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
-2025-06-26 14:53:17,519 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
-2025-06-26 14:53:17,583 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250643214055005923550000022604631827676826: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,584 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes acima.
-2025-06-26 14:53:17,584 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
-2025-06-26 14:53:17,584 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
-2025-06-26 14:53:17,648 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250601713958000354550010019966971194113189: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,649 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes acima.
-2025-06-26 14:53:17,649 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:17,649 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
-2025-06-26 14:53:17,710 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050619161825655311: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,711 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:17,711 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:17,711 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
-2025-06-26 14:53:17,774 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592901825406917: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,774 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:17,774 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:17,774 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
-2025-06-26 14:53:17,838 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592911825406930: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,838 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:17,838 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:17,838 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
-2025-06-26 14:53:17,901 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014407371251255458: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,901 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:17,901 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:17,902 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
-2025-06-26 14:53:17,964 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014433001131491628: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:17,965 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:17,965 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:17,965 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
-2025-06-26 14:53:18,030 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014434191196772270: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:18,030 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:18,030 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:53:18,030 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
-2025-06-26 14:53:18,092 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068681827553790: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:18,092 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:53:18,093 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:53:18,093 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
-2025-06-26 14:53:18,153 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068671827553785: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:18,153 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:53:18,153 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
-2025-06-26 14:53:18,153 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
-2025-06-26 14:53:18,215 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250619628684000360550010000710051314125262: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:18,216 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes acima.
-2025-06-26 14:53:18,216 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 14:53:18
-2025-06-26 14:53:39,113 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 14:53:39
-2025-06-26 14:53:39,113 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
-2025-06-26 14:53:39,113 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
-2025-06-26 14:53:39,114 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
-2025-06-26 14:53:39,114 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
-2025-06-26 14:53:39,114 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
-2025-06-26 14:53:39,115 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
-2025-06-26 14:53:39,115 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
-2025-06-26 14:53:39,115 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:53:39,115 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
-2025-06-26 14:53:39,226 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002423721173242158: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,227 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:53:39,227 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
-2025-06-26 14:53:39,227 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
-2025-06-26 14:53:39,290 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250600506974000141550020002424921216491110: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,290 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
-2025-06-26 14:53:39,291 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
-2025-06-26 14:53:39,291 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
-2025-06-26 14:53:39,356 - src.logger_config - ERROR - Erro HTTP ao processar chave 31250605547064000120550010002600321212881613: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,356 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes acima.
-2025-06-26 14:53:39,357 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
-2025-06-26 14:53:39,357 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
-2025-06-26 14:53:39,420 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250617244285000109550010008539971132114979: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,421 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes acima.
-2025-06-26 14:53:39,421 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
-2025-06-26 14:53:39,421 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
-2025-06-26 14:53:39,484 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250643214055005923550000022604631827676826: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,484 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes acima.
-2025-06-26 14:53:39,485 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
-2025-06-26 14:53:39,485 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
-2025-06-26 14:53:39,548 - src.logger_config - ERROR - Erro HTTP ao processar chave 53250601713958000354550010019966971194113189: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,548 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes acima.
-2025-06-26 14:53:39,549 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:39,549 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
-2025-06-26 14:53:39,614 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050619161825655311: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,615 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:39,615 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:39,615 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
-2025-06-26 14:53:39,681 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592901825406917: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,682 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:39,682 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
-2025-06-26 14:53:39,682 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
-2025-06-26 14:53:39,745 - src.logger_config - ERROR - Erro HTTP ao processar chave 52250643214055004013550000050592911825406930: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,746 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
-2025-06-26 14:53:39,746 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:39,746 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
-2025-06-26 14:53:39,810 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014407371251255458: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,811 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:39,811 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:39,811 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
-2025-06-26 14:53:39,874 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014433001131491628: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,874 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:39,874 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
-2025-06-26 14:53:39,874 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
-2025-06-26 14:53:39,941 - src.logger_config - ERROR - Erro HTTP ao processar chave 15250605970806000126550010014434191196772270: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:39,941 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
-2025-06-26 14:53:39,942 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:53:39,942 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
-2025-06-26 14:53:40,005 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068681827553790: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:40,005 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:53:40,005 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
-2025-06-26 14:53:40,006 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
-2025-06-26 14:53:40,070 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250643214055001189550000087068671827553785: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:40,071 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
-2025-06-26 14:53:40,071 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
-2025-06-26 14:53:40,071 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
-2025-06-26 14:53:40,135 - src.logger_config - ERROR - Erro HTTP ao processar chave 29250619628684000360550010000710051314125262: Status 400 - Resposta: <html><head><title>Error</title></head><body>Bad Request</body></html>
-2025-06-26 14:53:40,135 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes acima.
-2025-06-26 14:53:40,135 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 14:53:40
+2025-06-26 19:18:56,997 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 19:18:56
+2025-06-26 19:18:57,006 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\CHAVES NOTAS'.
+2025-06-26 19:18:57,011 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-26 19:18:57,011 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-26 19:18:57,024 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-26 19:18:57,032 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-26 19:18:57,053 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-26 19:18:57,067 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-26 19:18:57,078 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 19:18:57,110 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-26 19:18:57,360 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 19:18:57,366 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:57,366 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:57,406 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:57,411 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002423721173242158. Pulando geração de DANFE.
+2025-06-26 19:18:57,422 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
+2025-06-26 19:18:57,932 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 19:18:57,934 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-26 19:18:58,046 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 19:18:58,047 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:58,047 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:58,047 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:58,048 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002424921216491110. Pulando geração de DANFE.
+2025-06-26 19:18:58,048 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes acima.
+2025-06-26 19:18:58,049 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-26 19:18:58,049 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-26 19:18:58,148 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060554...
+2025-06-26 19:18:58,148 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:58,148 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:58,148 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:58,148 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250605547064000120550010002600321212881613. Pulando geração de DANFE.
+2025-06-26 19:18:58,148 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes acima.
+2025-06-26 19:18:58,148 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-26 19:18:58,148 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-26 19:18:58,247 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325061724...
+2025-06-26 19:18:58,248 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:58,248 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:58,377 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:58,407 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250617244285000109550010008539971132114979. Pulando geração de DANFE.
+2025-06-26 19:18:58,481 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes acima.
+2025-06-26 19:18:58,481 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-26 19:18:58,488 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-26 19:18:58,588 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325064321...
+2025-06-26 19:18:58,588 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:58,589 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:58,589 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:58,589 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250643214055005923550000022604631827676826. Pulando geração de DANFE.
+2025-06-26 19:18:58,590 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes acima.
+2025-06-26 19:18:58,590 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-26 19:18:58,658 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-26 19:18:59,018 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325060171...
+2025-06-26 19:18:59,018 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,018 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,018 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,058 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250601713958000354550010019966971194113189. Pulando geração de DANFE.
+2025-06-26 19:18:59,058 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes acima.
+2025-06-26 19:18:59,058 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:18:59,058 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-26 19:18:59,156 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:18:59,156 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,156 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,156 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,156 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050619161825655311. Pulando geração de DANFE.
+2025-06-26 19:18:59,156 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
+2025-06-26 19:18:59,156 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:18:59,156 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-26 19:18:59,258 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:18:59,258 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,258 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,258 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,258 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592901825406917. Pulando geração de DANFE.
+2025-06-26 19:18:59,258 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
+2025-06-26 19:18:59,258 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:18:59,258 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-26 19:18:59,346 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:18:59,346 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,364 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,397 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,428 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592911825406930. Pulando geração de DANFE.
+2025-06-26 19:18:59,552 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes acima.
+2025-06-26 19:18:59,561 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:18:59,607 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-26 19:18:59,717 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:18:59,718 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,722 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,724 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,758 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014407371251255458. Pulando geração de DANFE.
+2025-06-26 19:18:59,758 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
+2025-06-26 19:18:59,797 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:18:59,828 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-26 19:18:59,978 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:18:59,978 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:18:59,978 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:18:59,978 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:18:59,978 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014433001131491628. Pulando geração de DANFE.
+2025-06-26 19:18:59,982 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
+2025-06-26 19:18:59,982 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:18:59,987 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-26 19:19:00,168 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:19:00,168 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:19:00,168 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:19:00,168 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:19:00,168 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014434191196772270. Pulando geração de DANFE.
+2025-06-26 19:19:00,168 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes acima.
+2025-06-26 19:19:00,168 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 19:19:00,168 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-26 19:19:00,254 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 19:19:00,254 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:19:00,262 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:19:00,306 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:19:00,310 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068681827553790. Pulando geração de DANFE.
+2025-06-26 19:19:00,312 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
+2025-06-26 19:19:00,314 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 19:19:00,323 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-26 19:19:00,437 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 19:19:00,438 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:19:00,438 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:19:00,439 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:19:00,439 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068671827553785. Pulando geração de DANFE.
+2025-06-26 19:19:00,440 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes acima.
+2025-06-26 19:19:00,440 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-26 19:19:00,441 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-26 19:19:00,538 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925061962...
+2025-06-26 19:19:00,539 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:19:00,540 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:19:00,540 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:19:00,543 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250619628684000360550010000710051314125262. Pulando geração de DANFE.
+2025-06-26 19:19:00,546 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes acima.
+2025-06-26 19:19:00,548 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 19:19:00
+2025-06-26 19:23:22,615 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-26 19:23:22
+2025-06-26 19:23:22,650 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\CHAVES NOTAS'.
+2025-06-26 19:23:22,722 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-26 19:23:22,726 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-26 19:23:22,743 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-26 19:23:22,792 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-26 19:23:22,843 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-26 19:23:22,846 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-26 19:23:22,893 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 19:23:22,915 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-26 19:23:23,356 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 19:23:23,582 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:23,606 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:23,606 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:23,642 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002423721173242158. Pulando geração de DANFE.
+2025-06-26 19:23:23,651 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:24,676 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-26 19:23:24,676 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-26 19:23:24,792 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060050...
+2025-06-26 19:23:24,792 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:24,797 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:24,797 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:24,797 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250600506974000141550020002424921216491110. Pulando geração de DANFE.
+2025-06-26 19:23:24,800 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:25,848 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-26 19:23:25,849 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-26 19:23:25,976 - src.logger_config - INFO - XML baixado com sucesso para a chave: 3125060554...
+2025-06-26 19:23:25,976 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:25,976 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:25,981 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:25,984 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 31250605547064000120550010002600321212881613. Pulando geração de DANFE.
+2025-06-26 19:23:25,984 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:26,990 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-26 19:23:26,990 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-26 19:23:27,097 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325061724...
+2025-06-26 19:23:27,100 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:27,102 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:27,103 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:27,133 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250617244285000109550010008539971132114979. Pulando geração de DANFE.
+2025-06-26 19:23:27,146 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:28,192 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-26 19:23:28,194 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-26 19:23:28,317 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325064321...
+2025-06-26 19:23:28,317 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:28,317 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:28,317 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:28,317 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250643214055005923550000022604631827676826. Pulando geração de DANFE.
+2025-06-26 19:23:28,317 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:29,322 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-26 19:23:29,322 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-26 19:23:29,769 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5325060171...
+2025-06-26 19:23:29,769 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:29,772 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:29,772 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:29,772 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 53250601713958000354550010019966971194113189. Pulando geração de DANFE.
+2025-06-26 19:23:29,782 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:30,795 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:23:30,795 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-26 19:23:30,893 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:23:30,897 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:30,897 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:30,897 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:30,897 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050619161825655311. Pulando geração de DANFE.
+2025-06-26 19:23:30,897 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:31,900 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:23:31,900 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-26 19:23:32,049 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:23:32,049 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:32,049 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:32,049 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:32,049 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592901825406917. Pulando geração de DANFE.
+2025-06-26 19:23:32,049 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:33,052 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-26 19:23:33,053 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-26 19:23:33,217 - src.logger_config - INFO - XML baixado com sucesso para a chave: 5225064321...
+2025-06-26 19:23:33,217 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:33,217 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:33,217 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:33,217 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 52250643214055004013550000050592911825406930. Pulando geração de DANFE.
+2025-06-26 19:23:33,217 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:34,222 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:23:34,222 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-26 19:23:34,343 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:23:34,344 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:34,344 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:34,344 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:34,344 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014407371251255458. Pulando geração de DANFE.
+2025-06-26 19:23:34,344 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:35,347 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:23:35,373 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-26 19:23:35,596 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:23:35,613 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:35,617 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:35,617 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:35,617 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014433001131491628. Pulando geração de DANFE.
+2025-06-26 19:23:35,617 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:36,679 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-26 19:23:36,679 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-26 19:23:36,774 - src.logger_config - INFO - XML baixado com sucesso para a chave: 1525060597...
+2025-06-26 19:23:36,774 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:36,774 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:36,774 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:36,774 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 15250605970806000126550010014434191196772270. Pulando geração de DANFE.
+2025-06-26 19:23:36,774 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:37,780 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 19:23:37,780 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-26 19:23:37,893 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 19:23:37,893 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:37,893 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:37,893 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:37,893 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068681827553790. Pulando geração de DANFE.
+2025-06-26 19:23:37,893 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:38,897 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-26 19:23:38,904 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-26 19:23:39,185 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925064321...
+2025-06-26 19:23:39,193 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:39,193 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:39,228 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:39,228 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250643214055001189550000087068671827553785. Pulando geração de DANFE.
+2025-06-26 19:23:39,230 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:40,232 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-26 19:23:40,232 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-26 19:23:40,383 - src.logger_config - INFO - XML baixado com sucesso para a chave: 2925061962...
+2025-06-26 19:23:40,384 - src.logger_config - INFO - xmlb'\n<html><head>\n<meta http-equiv="content-type" content="text/html;charset=utf-8">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n'
+2025-06-26 19:23:40,384 - src.logger_config - ERROR - Erro ao parsear XML: mismatched tag: line 5, column 2
+2025-06-26 19:23:40,384 - src.logger_config - INFO - XML note number: None...
+2025-06-26 19:23:40,384 - src.logger_config - ERROR - Não foi possível extrair o número da nota do XML baixado para a chave: 29250619628684000360550010000710051314125262. Pulando geração de DANFE.
+2025-06-26 19:23:40,384 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
+2025-06-26 19:23:41,390 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-26 19:23:41
