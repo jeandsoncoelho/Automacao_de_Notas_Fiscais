@@ -598,3 +598,303 @@
 
 2025-06-27 10:59:57,956 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
 2025-06-27 10:59:58,957 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 10:59:58
+2025-06-27 13:29:49,587 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-27 13:29:49
+2025-06-27 13:29:49,587 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\CHAVES NOTAS'.
+2025-06-27 13:29:49,587 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-27 13:29:49,587 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-27 13:29:49,587 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-27 13:29:49,684 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-27 13:29:49,691 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-27 13:29:49,692 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-27 13:29:49,693 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 13:29:49,803 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-27 13:29:52,220 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:30:10,941 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:30:11,194 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:30:11,328 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:30:11,762 - WDM - INFO - WebDriver version 137.0.7151.119 selected
+2025-06-27 13:30:11,805 - WDM - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-27 13:30:11,851 - WDM - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-27 13:30:12,165 - WDM - INFO - Driver downloading response is 200
+2025-06-27 13:30:13,695 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:30:14,480 - WDM - INFO - Driver has been saved in cache [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119]
+2025-06-27 13:31:16,168 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:31:16,168 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002423721173242158: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:31:16,186 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:31:17,226 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 13:31:17,226 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-27 13:31:18,492 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:31:23,718 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:31:23,828 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:31:23,925 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:32:03,852 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:32:03,868 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002424921216491110: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:32:03,884 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:32:04,891 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-27 13:32:04,915 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-27 13:32:05,966 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:32:12,060 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:32:12,218 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:32:13,111 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:32:52,117 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:32:52,117 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250605547064000120550010002600321212881613: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:32:52,166 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:32:53,181 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-27 13:32:53,181 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-27 13:32:57,349 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:33:05,206 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:33:05,309 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:33:05,393 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:33:34,301 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:33:34,306 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250617244285000109550010008539971132114979: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:33:34,308 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:33:35,310 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-27 13:33:35,311 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-27 13:33:36,211 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:33:41,341 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:33:41,429 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:33:41,513 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:34:05,399 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:34:05,400 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250643214055005923550000022604631827676826: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:34:05,402 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:34:06,403 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-27 13:34:06,403 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-27 13:34:07,207 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:34:13,181 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:34:13,272 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:34:13,383 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:34:40,212 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:34:40,212 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250601713958000354550010019966971194113189: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:34:40,212 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:34:41,363 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 13:34:41,389 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-27 13:34:43,147 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:34:48,425 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:34:48,512 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:34:48,582 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:35:16,361 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:35:16,361 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050619161825655311: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:35:16,361 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:35:17,376 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 13:35:17,376 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-27 13:35:18,275 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:35:23,326 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:35:23,476 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:35:23,604 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:35:46,078 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:35:46,078 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592901825406917: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:35:46,078 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:35:47,106 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 13:35:47,109 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-27 13:35:48,181 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 13:35:52,055 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:35:52,143 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 13:35:52,240 - WDM - INFO - Driver [C:\Users\jakma\.wdm\drivers\chromedriver\win64\137.0.7151.119\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 13:36:20,807 - src.logger_config - INFO - XML Content: None
+2025-06-27 13:36:20,811 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592911825406930: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 13:36:20,818 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:21,820 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 13:36:21,821 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-27 13:36:21,908 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 15250605970806000126550010014407371251255458: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:21,944 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:22,947 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 13:36:22,947 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-27 13:36:23,030 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 15250605970806000126550010014433001131491628: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:23,037 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:24,040 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 13:36:24,043 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-27 13:36:24,124 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 15250605970806000126550010014434191196772270: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:24,168 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:25,172 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 13:36:25,172 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-27 13:36:25,258 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 29250643214055001189550000087068681827553790: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:25,263 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:26,284 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 13:36:26,284 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-27 13:36:26,384 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 29250643214055001189550000087068671827553785: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:26,402 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:27,406 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-27 13:36:27,406 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-27 13:36:27,539 - src.logger_config - CRITICAL - Erro crítico e inesperado no estágio de transformação para a chave 29250619628684000360550010000710051314125262: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+Traceback (most recent call last):
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 348, in process_single_key
+    initializeWeb =  initialize_webdriver(headless_mode=SELENIUM_HEADLESS,timeout_seconds=REQUEST_TIMEOUT_SECONDS, download_dir=TEMP_DOWNLOAD_DIR, logger_func=logger.error)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\OneDrive\Documentos\Case-Tecnico\src\pipeline\transform.py", line 45, in initialize_webdriver
+    shutil.rmtree(download_dir) # Remove a pasta e todo o seu conteúdo
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 626, in _rmtree_unsafe
+    onerror(os.rmdir, path, sys.exc_info())
+  File "C:\Users\jakma\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 624, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 5] Acesso negado: 'C:\\Users\\jakma\\OneDrive\\Documentos\\Case-Tecnico\\temp_downloads_selenium'
+2025-06-27 13:36:27,539 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
+2025-06-27 13:36:28,556 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 13:36:28
