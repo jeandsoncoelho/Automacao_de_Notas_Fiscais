@@ -9,6 +9,8 @@ LOG_FOLDER = os.path.join(BASE_DIR, "LOGS")
 
 # --- URLs e APIs para meudanfe.com.br ---
 
+MEUDANFE_WEB_URL = "https://www.meudanfe.com.br/"
+
 # URL BASE da API para DOWNLOAD DE XML pela chave de acesso 
 MEUDANFE_API_XML_DOWNLOAD_BASE_URL = "https://ws.meudanfe.com/api/v1/get/nfe/xml/"
 
@@ -20,4 +22,4 @@ MEUDANFE_API_DANFE_GENERATION_URL = "https://ws.meudanfe.com/api/v1/get/nfe/xmlt
 MEUDANFE_API_KEY = "SUA_CHAVE_AQUI" # <-- COLOQUE SUA CHAVE AQUI!
 
 # Outras configurações
-REQUEST_TIMEOUT_SECONDS = 60
+REQUEST_TIMEOUT_SECONDS = 10

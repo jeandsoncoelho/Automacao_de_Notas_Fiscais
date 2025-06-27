@@ -217,3 +217,384 @@
 
 2025-06-27 09:36:51,470 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
 2025-06-27 09:36:52,470 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 09:36:52
+2025-06-27 10:47:57,623 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-27 10:47:57
+2025-06-27 10:47:57,623 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
+2025-06-27 10:47:57,624 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-27 10:47:57,624 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-27 10:47:57,624 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-27 10:47:57,625 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-27 10:47:57,625 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-27 10:47:57,625 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-27 10:47:57,625 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 10:47:57,625 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-27 10:47:58,265 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:47:59,156 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:47:59,246 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:47:59,324 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:49:02,666 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:49:02,666 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002423721173242158: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:49:02,667 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:49:03,668 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 10:49:03,668 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-27 10:49:04,270 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:49:05,090 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:49:05,167 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:49:05,241 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:50:08,517 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:50:08,517 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002424921216491110: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:50:08,518 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:50:09,518 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-27 10:50:09,519 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-27 10:50:10,122 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:50:11,046 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:50:11,124 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:50:11,191 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:51:14,479 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:51:14,479 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250605547064000120550010002600321212881613: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:51:14,480 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:51:15,480 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-27 10:51:15,480 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-27 10:51:16,076 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:51:16,891 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:51:16,985 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:51:17,055 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:51:33,196 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 10:51:33
+2025-06-27 10:55:27,589 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-27 10:55:27
+2025-06-27 10:55:27,590 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
+2025-06-27 10:55:27,590 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-27 10:55:27,590 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-27 10:55:27,591 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-27 10:55:27,591 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-27 10:55:27,591 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-27 10:55:27,591 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-27 10:55:27,592 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 10:55:27,592 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-27 10:55:28,197 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:55:29,051 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:55:29,123 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:55:29,196 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:55:36,267 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 10:55:36
+2025-06-27 10:55:53,586 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-27 10:55:53
+2025-06-27 10:55:53,586 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
+2025-06-27 10:55:53,587 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-27 10:55:53,587 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-27 10:55:53,588 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-27 10:55:53,588 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-27 10:55:53,589 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-27 10:55:53,589 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-27 10:55:53,589 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 10:55:53,589 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-27 10:55:54,209 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:55:55,025 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:55:55,093 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:55:55,157 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:56:08,082 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:56:08,082 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002423721173242158: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:56:08,082 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:56:09,083 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 10:56:09,083 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-27 10:56:09,677 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:56:10,501 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:10,571 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:10,634 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:56:23,575 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:56:23,575 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002424921216491110: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:56:23,576 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:56:24,576 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-27 10:56:24,576 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-27 10:56:25,161 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:56:26,029 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:26,097 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:26,161 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:56:39,102 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:56:39,102 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250605547064000120550010002600321212881613: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:56:39,103 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:56:40,103 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-27 10:56:40,104 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-27 10:56:40,690 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:56:41,531 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:41,599 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:41,662 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:56:54,586 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:56:54,586 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250617244285000109550010008539971132114979: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:56:54,587 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:56:55,588 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-27 10:56:55,588 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-27 10:56:56,183 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:56:57,039 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:57,106 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:56:57,170 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:57:10,116 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:57:10,117 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250643214055005923550000022604631827676826: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:57:10,117 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:57:11,118 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-27 10:57:11,118 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-27 10:57:11,707 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:57:12,581 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:12,644 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:12,708 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:57:25,680 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:57:25,681 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250601713958000354550010019966971194113189: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:57:25,681 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:57:26,682 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 10:57:26,682 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-27 10:57:27,271 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:57:28,151 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:40,524 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:40,587 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:57:53,538 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:57:53,538 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050619161825655311: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:57:53,539 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:57:54,539 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 10:57:54,539 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-27 10:57:55,137 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:57:55,961 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:56,028 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:57:56,092 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:58:09,023 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:58:09,023 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592901825406917: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:58:09,024 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:58:10,024 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 10:58:10,024 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-27 10:58:10,614 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:58:11,459 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:11,582 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:11,646 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:58:24,542 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:58:24,542 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592911825406930: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:58:24,543 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:58:25,543 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 10:58:25,543 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-27 10:58:26,132 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:58:26,988 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:27,054 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:27,121 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:58:40,062 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:58:40,062 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014407371251255458: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:58:40,062 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:58:41,063 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 10:58:41,063 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-27 10:58:41,651 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:58:42,508 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:42,579 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:42,644 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:58:55,612 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:58:55,612 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014433001131491628: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:58:55,613 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:58:56,613 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 10:58:56,613 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-27 10:58:57,207 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:58:58,070 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:58,139 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:58:58,214 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:59:11,151 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:59:11,151 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014434191196772270: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:59:11,152 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:59:12,152 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 10:59:12,152 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-27 10:59:12,747 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:59:13,618 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:13,687 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:13,750 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:59:26,764 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:59:26,764 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250643214055001189550000087068681827553790: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:59:26,765 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:59:27,765 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 10:59:27,766 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-27 10:59:28,361 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:59:29,255 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:29,322 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:29,386 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:59:42,352 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:59:42,352 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250643214055001189550000087068671827553785: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:59:42,353 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:59:43,353 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-27 10:59:43,353 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-27 10:59:43,944 - WDM - INFO - ====== WebDriver manager ======
+2025-06-27 10:59:44,833 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:44,902 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-27 10:59:44,965 - WDM - INFO - Driver [C:\Users\Manga\.wdm\drivers\chromedriver\win64\138.0.7204.49\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-27 10:59:57,955 - src.logger_config - INFO - XML Content: None
+2025-06-27 10:59:57,955 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250619628684000360550010000710051314125262: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 10:59:57,956 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
+2025-06-27 10:59:58,957 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 10:59:58
