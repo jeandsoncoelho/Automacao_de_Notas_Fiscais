@@ -86,7 +86,7 @@ Para executar este projeto, você precisará ter instalado:
 * **Git** (Recomendado baixar do [git-scm.com/downloads](https://git-scm.com/downloads/)).
 * Um editor de código (como **VS Code**, recomendado).
 
-Executar o arquivo requerements "pip install -r requirements.txt"
+
 
 ## 🚀 Como Configurar e Rodar o Projeto
 
@@ -108,7 +108,10 @@ python -m venv venv
 .\venv\Scripts\activate
 # No macOS/Linux ou Git Bash:
 # source venv/bin/activate
+
+#Executar o arquivo requerements
+pip install -r requirements.txt
+# Executar a Pipeline
+python -m src.main
 ```
 
-Executar a Pipeline
-python -m src.main

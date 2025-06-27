@@ -44,10 +44,7 @@ def get_all_filial_keys(logger):
     retorna uma lista de tuplas (filial_code, key).
     """
     all_data = []
-    # Usa glob para encontrar todos os arquivos .txt na pasta de entrada
-    # from glob import glob # Adicione no topo do arquivo se usar glob
-    # files = glob(os.path.join(INPUT_FOLDER, "*.txt"))
-
+    
     try:
         for filename in os.listdir(INPUT_FOLDER):
             if filename.endswith(".txt"):

@@ -1,0 +1,219 @@
+2025-06-27 09:36:36,225 - src.logger_config - INFO - Iniciando o pipeline de automação de notas em 2025-06-27 09:36:36
+2025-06-27 09:36:36,225 - src.logger_config - INFO - Estágio de Extração: Lendo chaves da pasta 'C:\Users\Manga\Desktop\Case Tecnico\CHAVES NOTAS'.
+2025-06-27 09:36:36,225 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 12.txt' para filial: 'FILIAL 12'.
+2025-06-27 09:36:36,237 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 2.txt' para filial: 'FILIAL 02'.
+2025-06-27 09:36:36,248 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 4.txt' para filial: 'FILIAL 04'.
+2025-06-27 09:36:36,260 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 5.txt' para filial: 'FILIAL 05'.
+2025-06-27 09:36:36,272 - src.logger_config - INFO - Processando arquivo de chaves: 'CHAVES FILIAL 6.txt' para filial: 'FILIAL 06'.
+2025-06-27 09:36:36,284 - src.logger_config - INFO - Total de 15 chaves encontradas para processamento.
+2025-06-27 09:36:36,284 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 09:36:36,284 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002423721173242158
+2025-06-27 09:36:36,385 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002423721173242158: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:36,385 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:37,385 - src.logger_config - INFO - Processando chave: 3125060050... (Filial: FILIAL 12)
+2025-06-27 09:36:37,386 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250600506974000141550020002424921216491110
+2025-06-27 09:36:37,454 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250600506974000141550020002424921216491110: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:37,455 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060050... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:38,455 - src.logger_config - INFO - Processando chave: 3125060554... (Filial: FILIAL 12)
+2025-06-27 09:36:38,455 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 31250605547064000120550010002600321212881613
+2025-06-27 09:36:38,544 - src.logger_config - ERROR - Erro ao baixar XML para a chave 31250605547064000120550010002600321212881613: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:38,545 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 3125060554... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:39,545 - src.logger_config - INFO - Processando chave: 5325061724... (Filial: FILIAL 02)
+2025-06-27 09:36:39,545 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250617244285000109550010008539971132114979
+2025-06-27 09:36:39,624 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250617244285000109550010008539971132114979: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:39,624 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325061724... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:40,625 - src.logger_config - INFO - Processando chave: 5325064321... (Filial: FILIAL 02)
+2025-06-27 09:36:40,625 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250643214055005923550000022604631827676826
+2025-06-27 09:36:40,698 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250643214055005923550000022604631827676826: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:40,698 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:41,698 - src.logger_config - INFO - Processando chave: 5325060171... (Filial: FILIAL 02)
+2025-06-27 09:36:41,699 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 53250601713958000354550010019966971194113189
+2025-06-27 09:36:41,786 - src.logger_config - ERROR - Erro ao baixar XML para a chave 53250601713958000354550010019966971194113189: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:41,786 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5325060171... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:42,786 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 09:36:42,787 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050619161825655311
+2025-06-27 09:36:42,853 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050619161825655311: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:42,853 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:43,854 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 09:36:43,854 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592901825406917
+2025-06-27 09:36:43,924 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592901825406917: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:43,925 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:44,925 - src.logger_config - INFO - Processando chave: 5225064321... (Filial: FILIAL 04)
+2025-06-27 09:36:44,926 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 52250643214055004013550000050592911825406930
+2025-06-27 09:36:44,993 - src.logger_config - ERROR - Erro ao baixar XML para a chave 52250643214055004013550000050592911825406930: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:44,994 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 5225064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:45,994 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 09:36:45,995 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014407371251255458
+2025-06-27 09:36:46,087 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014407371251255458: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:46,088 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:47,088 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 09:36:47,089 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014433001131491628
+2025-06-27 09:36:47,154 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014433001131491628: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:47,155 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:48,156 - src.logger_config - INFO - Processando chave: 1525060597... (Filial: FILIAL 05)
+2025-06-27 09:36:48,156 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 15250605970806000126550010014434191196772270
+2025-06-27 09:36:48,225 - src.logger_config - ERROR - Erro ao baixar XML para a chave 15250605970806000126550010014434191196772270: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:48,225 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 1525060597... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:49,226 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 09:36:49,226 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068681827553790
+2025-06-27 09:36:49,298 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250643214055001189550000087068681827553790: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:49,299 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:50,299 - src.logger_config - INFO - Processando chave: 2925064321... (Filial: FILIAL 06)
+2025-06-27 09:36:50,300 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250643214055001189550000087068671827553785
+2025-06-27 09:36:50,372 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250643214055001189550000087068671827553785: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:50,373 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925064321... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:51,373 - src.logger_config - INFO - Processando chave: 2925061962... (Filial: FILIAL 06)
+2025-06-27 09:36:51,373 - src.logger_config - INFO - Iniciando download do XML e geração do DANFE para a chave: 29250619628684000360550010000710051314125262
+2025-06-27 09:36:51,469 - src.logger_config - ERROR - Erro ao baixar XML para a chave 29250619628684000360550010000710051314125262: Status 502 - Resposta: 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2025-06-27 09:36:51,470 - src.logger_config - ERROR - Falha ao obter XML/DANFE para a chave: 2925061962... Detalhes no log da função 'process_single_key'.
+2025-06-27 09:36:52,470 - src.logger_config - INFO - Pipeline de automação de notas finalizado em 2025-06-27 09:36:52

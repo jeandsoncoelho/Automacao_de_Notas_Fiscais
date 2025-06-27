@@ -113,6 +113,12 @@ def process_single_key(key, logger):
             data=xml_payload,
             timeout=REQUEST_TIMEOUT_SECONDS,
         )
+        
+        if xml_response.status_code != 200:
+            logger.error(
+                f"Erro ao baixar XML para a chave {key}: Status {xml_response.status_code} - Resposta: {xml_response.text}"
+            )
+            return None, None, None
 
 
         xml_content = xml_response.content

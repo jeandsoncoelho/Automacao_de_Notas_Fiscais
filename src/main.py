@@ -1,5 +1,5 @@
 import datetime
-import time # Importe a biblioteca time
+import time
 from src.logger_config import setup_logger
 from src.pipeline.extract import get_all_filial_keys
 from src.pipeline.transform import process_single_key
